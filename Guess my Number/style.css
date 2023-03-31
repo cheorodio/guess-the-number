@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Alkatra', sans-serif;
+  color: #333;
+  background-color: #fff0d1;
+}
+
+header {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.title p {
+  font-size: 3rem;
+}
+
+.again {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 15%;
+  left: 93%;
+  color: #fff;
+  background-color: #379467;
+  font-family: 'Alkatra', sans-serif;
+  box-shadow: 2px 5px #fff;
+}
+
+main {
+  position: relative;
+}
+
+.message {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding-left: 3rem;
+}
+
+.one,
+.twenty {
+  height: 200px;
+}
+
+.arrow {
+  height: 100px;
+}
+
+.guess {
+  height: 100px;
+  width: 200px;
+
+  border: 1px dotted #379467;
+  font-size: 9rem;
+  text-align: center;
+  font-family: 'Alkatra', sans-serif;
+  color: #379467;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.check-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.check {
+  padding: 1rem 5rem;
+  background-color: #379467;
+  color: #fff;
+  border: none;
+  box-shadow: 5px 5px #fff;
+  font-family: 'Alkatra', sans-serif;
+  font-size: 2.5rem;
+}
+
+.scores {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.label-score,
+.label-highscore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #379467;
+  color: #fff;
+  text-align: center;
+  width: 250px;
+  height: 70px;
+  font-size: 3rem;
+  box-shadow: 5px 5px #fff;
+}
